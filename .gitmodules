@@ -1,0 +1,3 @@
+[submodule "src/verilog/tt03p5-content-addressable-memory"]
+	path = src/verilog/tt03p5-content-addressable-memory
+	url = https://github.com/irtzonevrakis/tt03p5-content-addressable-memory

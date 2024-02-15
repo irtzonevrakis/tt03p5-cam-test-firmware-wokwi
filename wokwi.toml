@@ -1,0 +1,9 @@
+[wokwi]
+version = 1
+elf = "assets/firmware/RPI_PICO-20240105-v1.22.1.uf2"
+firmware = "assets/firmware/RPI_PICO-20240105-v1.22.1.uf2"
+rfc2217ServerPort = 4000
+
+[[chip]]
+name = 'verilog-cam'
+binary = 'dist/wokwi.wasm'

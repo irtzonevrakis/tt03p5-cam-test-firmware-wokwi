@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "author": "Ioannis-Rafail Tzonevrakis",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": -3.15,
+      "left": 3.6,
+      "attrs": {}
+    },
+    { 
+      "type": "chip-verilog-cam", 
+      "id": "chip1", 
+      "top": -152.58, 
+      "left": -196.8, 
+      "attrs": {} 
+    }
+  ],
+  "connections": [
+   [ "pico:GP0", "chip1:clk", "black", [] ],
+   [ "pico:GP5", "chip1:rst_n", "black", [] ],
+   [ "pico:GP6", "chip1:ena", "black", [] ],
+   [ "pico:GP9", "chip1:ui_in_0", "black", [] ],
+   [ "pico:GP10", "chip1:ui_in_1", "black", [] ],
+   [ "pico:GP11", "chip1:ui_in_2", "black", [] ],
+   [ "pico:GP12", "chip1:ui_in_3", "black", [] ],
+   [ "pico:GP17", "chip1:ui_in_4", "black", [] ],
+   [ "pico:GP18", "chip1:ui_in_5", "black", [] ],
+   [ "pico:GP19", "chip1:ui_in_6", "black", [] ],
+   [ "pico:GP20", "chip1:ui_in_7", "black", [] ],
+   [ "pico:GP3", "chip1:uo_out_0", "black", [] ],
+   [ "pico:GP4", "chip1:uo_out_1", "black", [] ],
+   [ "pico:GP7", "chip1:uo_out_2", "black", [] ],
+   [ "pico:GP8", "chip1:uo_out_3", "black", [] ],
+   [ "pico:GP13", "chip1:uo_out_4", "black", [] ],
+   [ "pico:GP14", "chip1:uo_out_5", "black", [] ],
+   [ "pico:GP15", "chip1:uo_out_6", "black", [] ],
+   [ "pico:GP16", "chip1:uo_out_7", "black", [] ],
+   [ "pico:GP21", "chip1:uio_out_0", "black", [] ],
+   [ "pico:GP22", "chip1:uio_out_1", "black", [] ],
+   [ "pico:TP4", "chip1:uio_out_2", "black", [] ],
+   [ "pico:$gpio24", "chip1:uio_out_3", "black", [] ],
+   [ "pico:TP5", "chip1:uio_out_4", "black", [] ],
+   [ "pico:GP26", "chip1:uio_out_5", "black", [] ],
+   [ "pico:GP27", "chip1:uio_out_6", "black", [] ],
+   [ "pico:GP28", "chip1:uio_out_7", "black", [] ]
+  ],
+  "dependencies": {}
+}
