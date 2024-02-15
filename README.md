@@ -3,7 +3,7 @@
 ## Requirements
 
 * emscripten
-* oss-cad-suite
+* [oss-cad-suite, 2023-07-01 release](https://github.com/YosysHQ/oss-cad-suite-build/releases/tag/2023-07-01)
 
 ## How to use
 
